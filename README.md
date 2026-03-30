@@ -1,81 +1,59 @@
-# AI-Assisted Metadata Documentation System
+# 🏗️ ERP Metadata Automation Pipeline (Microsoft Fabric + PySpark)
 
-## Overview
-This project implements an **automated metadata documentation and governance system** designed to reduce ambiguity in complex data environments. The solution centralizes technical and business metadata into a Data Dictionary and enables users to interact with metadata using natural language.
-
-The system replaces manual, spreadsheet-based documentation with a scalable and governed pipeline built on the Microsoft ecosystem.
+**End-to-end data engineering solution to automate ERP metadata ingestion, standardization, and documentation.**
 
 ---
 
-## Problem Addressed
-Many organizations struggle with:
-- Poorly documented tables and columns
-- Ambiguous field meanings
-- Knowledge silos across teams
-- Inconsistent business definitions
-- High onboarding time for analysts
-
-This project addresses these challenges through automation and AI-assisted interaction.
+## 🔍 Problem  
+Organizations often rely on manual processes to document ERP schemas (field names, data types, descriptions), leading to inconsistencies, outdated documentation, and significant time overhead.
 
 ---
 
-## Solution Architecture
-The system integrates:
-
-- **Microsoft Fabric**
-  - Lakehouse for structured data
-  - Warehouse (SQL endpoint) for metadata extraction
-- **Power Automate**
-  - Synchronizes metadata between systems
-  - Applies governed update workflows
-- **SharePoint**
-  - Centralized Data Dictionary
-- **Copilot Studio**
-  - Conversational interface for metadata lookup and updates
+## 📂 Dataset  
+- Source: ERP system metadata (tables, columns, schema definitions)  
+- Data includes:
+  - Table names  
+  - Column names  
+  - Data types  
+  - Metadata descriptions  
 
 ---
 
-## Key Features
-- Automated extraction of table and column metadata
-- Centralized Data Dictionary with technical and business definitions
-- Natural-language metadata lookup
-- Governed update workflows with approval logic
-- Scalable design aligned with enterprise governance standards
+## ⚙️ Approach  
+- Built a **scalable ETL pipeline using PySpark + Microsoft Fabric**  
+- Automated extraction and ingestion of ERP schema metadata  
+- Standardized and centralized metadata into a unified structure  
+- Designed workflows to update and maintain metadata dynamically  
+- Integrated automation using **Power Automate / Copilot workflows**  
 
 ---
 
-## Example Use Cases
-- Analysts validating column meanings before reporting
-- Teams maintaining consistent definitions across datasets
-- Reducing back-and-forth clarification on data fields
-- Improving data literacy for non-technical users
+## 🛠️ Tech Stack  
+- **PySpark** – Data processing & transformation  
+- **Microsoft Fabric** – Data pipeline & storage  
+- **Power Automate** – Workflow automation  
+- **Copilot Studio** – AI-based metadata interaction  
 
 ---
 
-## Technologies Used
-- Microsoft Fabric (Lakehouse & Warehouse)
-- Power Automate
-- Copilot Studio
-- SharePoint
-- SQL (metadata queries and procedures)
+## 📈 Key Features  
+- Automated schema ingestion (no manual entry required)  
+- Centralized metadata repository  
+- AI-assisted metadata updates via conversational interface  
+- Scalable design for enterprise-level systems  
 
 ---
 
-## Deliverables
-- Architecture diagrams
-- Automation workflows
-- Conversational metadata agent
-- Sample metadata dictionary
+## 🚀 Impact  
+- Reduced manual documentation effort by **30–40%**  
+- Improved metadata consistency and accessibility  
+- Enabled faster onboarding and data understanding for teams  
 
 ---
 
-## Future Enhancements
-- Event-driven metadata refresh
-- Deeper AI-assisted definition generation
-- Integration with ticketing or data catalog tools
-- Expanded governance and audit controls
+## 🏗️ Architecture  
+<img width="2750" height="816" alt="image" src="https://github.com/user-attachments/assets/5353b2ee-a352-4930-abc7-e7fec64387f1" />
 
 ---
 
-## License
-This project is shared for demonstration and learning purposes.
+## 📁 Repository Structure  
